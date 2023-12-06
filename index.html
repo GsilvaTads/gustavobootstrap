@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang=""pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" loading="lazy">
+	<link rel="stylesheet" href="css/styles.css" loading="lazy">
+    <title>Meu Site Bootstrap</title>
+</head>
+<body id="topoId">
+
+    <div class="container">         
+		
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#topoId"><img src="img/SimulaSurf.webp" alt="logo" loading="lazy"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#topoId">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destaquesId">Destaque</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#produtosId">Produtos</a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="#sobrenosId">Sobre nós</a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="#tabelaPrecosId">Tabela de preços</a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="#promocaoId">Promoções</a>
+                  </li>
+				  <li class="nav-item">
+                    <a class="nav-link" href="#acessoriosId">Acessórios e Vestuário</a>
+                  </li>
+				</ul>
+				
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+		  
+		<header>  
+			<img src="img/simulador_role.webp" alt="Imagem no Header">
+				<div class="header-text">
+					<p>Solte sua emoção, surfando <br>em um dos nossos skates.</p>
+				</div>
+		</header>  
+			
+		<div class="row">
+		<div class="col-md-8">
+			
+        <main>
+				
+			
+<!-- Carousel inicio -->
+
+		<h2 id="destaquesId">Destaques do mês</h2>
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		</div>
+  
+<!-- Slide -->
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="img/kit_trucks.webp" alt="Los Angeles" class="d-block" style="width:100%">
+			  <div class="carousel-caption">
+				
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="img/simulador_psycho.webp" alt="Chicago" loading="lazy" class="d-block" style="width:100%">
+			  <div class="carousel-caption">
+				
+			  </div> 
+			</div>
+			<div class="carousel-item">
+			  <img src="img/simulador_tour.webp" alt="New York" loading="lazy" class="d-block" style="width:100%">
+			  <div class="carousel-caption">
+				
+			  </div>  
+			</div>
+		</div>
+  
+  <!-- controles laterais -->
+			<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</button>
+		</div><br><br>
+<!-- Carousel fim -->
+				
+                    
+		<h2 id="produtosId">Produtos</h2>		
+		<div class="produtos"> 
+            <figure>
+              <figcaption>Simulador Clor Fun</figcaption>
+              <img src="img/simulador_color_fun.webp" alt="nave" loading="lazy"/>
+            </figure>
+          
+            <figure>
+              <figcaption>Simulador New Old</figcaption>
+              <img src="img/simulador_new_old.webp" alt="nave" loading="lazy"/>
+            </figure>
+          
+            <figure>
+              <figcaption>Simulador Polar</figcaption>
+              <img src="img/simulador_polar.webp" alt="nave" loading="lazy"/>
+            </figure>
+         
+            <figure>
+              <figcaption>Simulador Psycho</figcaption>
+              <img src="img/simulador_psycho.webp" alt="nave" loading="lazy"/>
+             </figure>
+          
+            <figure>
+              <figcaption>Simulador Tour</figcaption>
+              <img src="img/simulador_tour.webp" alt="nave" loading="lazy"/>
+            </figure>
+          
+            <figure>
+              <figcaption>Skate Bag</figcaption>
+              <img src="img/skate_bag.webp" alt="nave" loading="lazy"/>
+            </figure>
+         
+            <figure>
+              <figcaption>Rolamentos de precisão</figcaption>
+              <img src="img/rolamento.webp" alt="nave" loading="lazy"/>
+            </figure>
+          
+            <figure>
+              <figcaption>Kit Trucks</figcaption>
+              <img src="img/kit_trucks.webp" alt="nave" loading="lazy"/>
+            </figure>
+          
+            <figure>
+              <figcaption>Boné Verde</figcaption>
+              <img src="img/bone_verde.webp" alt="nave" loading="lazy"/>
+            </figure>
+			</div>
+				
+			
+		<h2 id="sobrenosId">Sobre nós</h2>
+        <div class="sobrenos">
+			<p>
+			Desde 2000 no mercado do surf e skate, a Simula Surf vem crescendo a cada ano no ramo sempre buscando a evolução do esporte,
+			incentivando e fomentando atletas e simpatizantes do surf e do skate. Temos como principal objetivo a satisfação e confiança dos nossos clientes. 
+			Somos uma empresa especializada e oferecemos equipamentos de alta qualidade sempre com o intuito de fidelizar e aproximar o cliente ao meio do esporte. 
+			Oferecemos tudo do ramo de skate: equipamentos, acessórios, confecções, calçados, óculos de sol, skates e muito mais fazem parte do acervo da loja. 
+			Faça suas compras na Simula Surf Online, parcele sem juros e ainda receba em casa nossos produtos com total praticidade e segurança.
+			Bom proveito a todos e aloha!
+			</p>
+        </div>	
+				
+		
+		<div id="tabelaPrecosId" class="container mt-3">
+		  <h2>Tabela de preços</h2>
+		  <p>Abaixo valores de alguns de nossos produtos:</p>            
+		  <table class="table table-hover">
+			<thead>
+			  <tr>
+				<th>Produto</th>
+				<th>Modelo</th>
+				<th>Valor</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<td>Skate simulador de surf</td>
+				<td>Modelo Psyco</td>
+				<td>R$ 800,00</td>
+			  </tr>
+			  <tr>
+				<td>Skate simulador de surf</td>
+				<td>Modelo Clor Fun</td>
+				<td>R$ 790,00</td>
+			  </tr>
+			  <tr>
+				<td>Skate simulador de surf</td>
+				<td>Modelo New Old</td>
+				<td>R$ 1.200,00</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+
+		<div id="promocaoId" class="banner">
+			<h1>Promoção de black friday</h1> 
+			<p>Utilizando o cupom SIMULA, você tem 70% de desconto na sua primeira compra.</p> 
+					  
+			<div class="grad">
+			<img src="img/skate_anima.webp" alt="Imagem em movimento" loading="lazy">
+			</div>
+		</div>					
+                
+        </div>	
+			
+
+            <div id="acessoriosId" class="col-md-4">
+                <aside>		
+								
+                    <h3>Acessórios e Vestuário</h3>
+                    <p>Confira estes produtos</p>
+					<div class="acessorios">
+					
+					
+					
+							<!-- Modal inicio -->						
+							<div class="container mt-3">     
+								<div class="modal-miniatura">  
+									<figure>
+										<figcaption>Boné Verde</figcaption>
+										<img src="img/bone_verde.webp" alt="nave" loading="lazy"/>
+									</figure>
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bone">
+								Detalhes
+							  </button>
+							</div>
+							
+							<div class="modal fade" id="bone">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">
+									<figure>
+										<figcaption>Boné Verde</figcaption>
+										<p>Este boné feito com tecido reciclado é o que tem de melhor em estilo e conforto.</p>
+										<img src="img/bone_verde.webp" alt="nave" loading="lazy"/>
+										<p>Valor deste produto: R$ 79,90</p>
+									</figure>
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+							
+							
+							
+													
+							<div class="container mt-3">     
+								<div class="modal-miniatura">								
+									<figure>
+										<figcaption>Rolamentos de precisão</figcaption>
+										<img src="img/rolamento.webp" alt="nave" loading="lazy"/>
+									</figure>								
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rolamento">
+								Detalhes
+							  </button>
+							</div>
+							
+							<div class="modal fade" id="rolamento">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">									
+									<figure>
+										<figcaption>Rolamentos de precisão</figcaption>
+										<p>Os rolamentos da Balloon Co. são de alto desempenho e durabilidade para executar suas manobras com segurança.</p>
+										<img src="img/rolamento.webp" alt="nave" loading="lazy"/>
+										<p>Valor deste produto: R$ 59,90</p>
+									</figure>
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+									
+													
+							<div class="container mt-3">     
+								<div class="modal-miniatura">
+									<figcaption>Kit Trucks</figcaption>
+									<figure>
+									<img src="img/kit_trucks.webp" alt="nave" loading="lazy"/>
+									</figure>
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#truck">
+								Detalhes
+							  </button>
+							</div>
+							<div class="modal fade" id="truck">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">								  
+									<figcaption>Kit Trucks</figcaption>
+									<p>Os kits trucks da Balloon Co. são produzidos em liga de carbono proporcionando leveza e segurança nas suas manobras.</p>
+									<figure>									
+									<img src="img/kit_trucks.webp" alt="nave" loading="lazy"/>
+									<p>Valor deste produto: R$ 349,90</p>
+									</figure>							
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+							
+							
+													
+							<div class="container mt-3">     
+								<div class="modal-miniatura">
+									<figcaption>Camiseta Estilo</figcaption>
+									<figure>
+									<img src="img/camiseta_skate.webp" alt="camiseta" loading="lazy"/>
+									</figure>
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#camiseta">
+								Detalhes
+							  </button>
+							</div>
+							<div class="modal fade" id="camiseta">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">								  
+									<figcaption>Camiseta Estilo</figcaption>
+									<p>Confeccionada em algodão, esta camiseta tras levesano vestir e estilo ao usar. Perfeita para seu rolé diário.</p>
+									<figure>									
+									<img src="img/camiseta_skate.webp" alt="nave" loading="lazy"/>
+									<p>Valor deste produto: R$ 78,90</p>
+									</figure>							
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+							
+							
+							<div class="container mt-3">     
+								<div class="modal-miniatura">
+									<figcaption>Calça Cargo</figcaption>
+									<figure>
+									<img src="img/calca_cargo.webp" alt="calca" loading="lazy"/>
+									</figure>
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#calca">
+								Detalhes
+							  </button>
+							</div>
+							<div class="modal fade" id="calca">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">								  
+									<figcaption>Calça Cargo</figcaption>
+									<p>Este calça exclusiva e estilosa confeccionada em Sarja que é um tecido com alta resistência perfeito para skatista em suas manobras.</p>
+									<figure>									
+									<img src="img/camiseta_skate.webp" alt="nave" loading="lazy"/>
+									<p>Valor deste produto: R$ 245,00</p>
+									</figure>							
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+							
+							
+							<div class="container mt-3">     
+								<div class="modal-miniatura">
+									<figcaption>Jaqueta Corta Vento</figcaption>
+									<figure>
+									<img src="img/jaqueta_skate.webp" alt="jaqueta" loading="lazy"/>
+									</figure>
+								</div>    
+							  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#jaqueta">
+								Detalhes
+							  </button>
+							</div>
+							<div class="modal fade" id="jaqueta">
+							  <div class="modal-dialog">
+								<div class="modal-content">
+								  
+								  <div class="modal-header">
+									<h4 class="modal-title">Acessórios</h4>
+									<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+								  </div>
+								  
+								  <div class="modal-body">								  
+									<figcaption>Jaqueta Corta Vento</figcaption>
+									<p>Este prduto é puro estilo e diversão. Confeccionada em poliéster, leve e com secagem rápida com estampas modernas.</p>
+									<figure>									
+									<img src="img/jaqueta_skate.webp" alt="nave" loading="lazy"/>
+									<p>Valor deste produto: R$ 360,00</p>
+									</figure>							
+								  </div>
+								  
+								  <div class="modal-footer">
+									<button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+								  </div>
+								</div>
+							  </div>       
+							</div>
+							
+					</div>	
+				</aside>
+			</div>
+        </div>
+		
+		</main>
+        
+		<footer class="rodape">
+			<div class="direitos">
+				<p>Simula Surf Ltda. - Todos os direitos reservados. SIMULA SURF COMERCIO DE ARTIGOS ESPORTIVOS LTDA CNPJ: 11.222.333/0001-44</p>
+			</div>      
+
+			<div class="informacoes-contato">
+				<h3>Contato:</h3>          
+				<p>
+				Telefone: (53) 981381234<br>
+				E-mail: simulasurf@skate.com.br
+				</p>
+			</div>
+
+			<div class="redes-sociais">
+			  <h3>Redes Sociais:</h3>
+			  <a href="#">facebook/simulasurf</a><br>
+			  <a href="#">twitter.com/simulasurf</a><br>
+			  <a href="#">instagram.com/simulasurf</a>
+			</div>
+
+			<div class="endereco-loja">
+			  <h3>Endereço:</h3>
+			  <p>Rua Riachuelo, 666 - Bairro: Centro - Cidade: Rio Grande/RS</p>
+				</div>
+			</footer>  	
+       
+    </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"> loading="lazy"</script>
+</body>
+</html>
